@@ -47,4 +47,3 @@ It focuses on identifying contradictions between the generated answer and the re
  - Then uses this same LLM to classify either these claims are aligned and present in the facts included in the retrieved context.
  - A verdict is provided by the LLM: yes, no, idk
  - Faithfulness score is then calculated: Number of Truthful Claims (!no verdict) / Total number of Claims (extracted from the generated answer).
-
